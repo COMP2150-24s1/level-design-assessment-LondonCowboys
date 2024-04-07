@@ -32,7 +32,7 @@ Multiple chompers spread about the game to challenge the player.
 ### 2.4. Health Pickups
 Health Pickup after the first key for the player to restore some health
 ### 2.5. Keys
-3 keys placed strategicly around the level behind enemies to be defeated first.
+3 keys placed strategically around the level behind enemies to be defeated first.
 ### 2.6. Moving Platforms
 Moving platforms at the start to get the player up and then a spitter placed to make it more difficult for the player.
 ### 2.7. Passthrough Platforms
@@ -40,7 +40,7 @@ Set after the second level to allow the player to climb up to level 3.
 ### 2.8. Spikes
 Scattered around the level with the other enemies.
 ### 2.9. Spitters
-Strategicly placed around the map with other enemies to make it difficult for the player.
+strategically placed around the map with other enemies to make it difficult for the player.
 ### 2.10. Weapon Pickup (Gun)
 Placed in the second fight of the level.
 ### 2.11. Weapon Pickup (Staff)
@@ -62,7 +62,7 @@ Starting with low-fidelity paper sketches, I employed an iterative design proces
 ![](DocImages/iterativedesign1.png)
 ![](DocImages/iterativedesign2.png)
 ![](DocImages/iterativedesign3.png)
-In the initial stages of my iterative design, the level layout was envisioned as a single, linear path from start to finish. However, this concept evolved into a two-story design, where players ascend through passthrough platforms. Originally, the path dipped shortly after the beginning and then rose again; this was reimagined to have players ascend to obtain the melee weapon before descending. Iterating through various designs was crucial for finalizing the level layout and deciding on the placement of elements. For instance, my initial design did not include acid obstacles, but through prototyping and identifying gameplay flaws, I introduced two acid pools in challenging locations to diversify the path. This process of iteration and prototyping was invaluable, not only in enhancing the level’s complexity but also in refining the placement of key items. In earlier designs, a key was placed in an optional spot, potentially complicating the completion of the level. Addressing these flaws led to a more engaging and navigable level design, demonstrating the effectiveness of iterative design in pinpointing and correcting weaknesses in the game's structure.
+In the initial stages of my iterative design, the level layout was envisioned as a single, linear path from start to finish. However, this concept evolved into a two-story design, where players ascend through passthrough platforms. Originally, the path dipped shortly after the beginning and then rose again; this was reimagined to have players ascend to obtain the melee weapon before descending. Iterating through various designs was crucial for finalizing the level layout and deciding on the placement of elements. For instance, my initial design did not include acid obstacles, but through prototyping and identifying gameplay flaws, I introduced two acid pools in challenging locations to diversify the path. This process of iteration and prototyping was invaluable, not only in enhancing the level’s complexity but also in refining the placement of key items. In earlier designs, a key was placed in an optional spot, potentially complicating the completion of the level. Addressing these flaws led to a more engaging and navigable level design, demonstrating the effectiveness of iterative design in pinpointing and correcting weaknesses in the game's structure.   
 
 
 
