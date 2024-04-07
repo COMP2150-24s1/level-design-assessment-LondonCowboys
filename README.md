@@ -1,100 +1,64 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
-
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
+### Name: [Parth Bhatia]
+### Student number: [47876182] 
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
+The level is desgined to increase difficulty as the player progresses through. The first point they get to is a checkpoint and staff pickup to get the player the ability to defend themselves from enemies. Different enemies are scattered throughout the level. The chomper is a close range enemy which will approach the player and do 1 health damage. They are easy to counter. The spitter has a ranged attack which does 1 health damage aswell. The spitter is more tricky to counter. The first challanging part of the level is when the player is faced with the first challange as there's acid at the bottom of the hill and if the player jumps too early, he will die and respawn at the checkpoint. 
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
-
+The player learns how to use the controls given to him with the environment and how to leverage that in order to take the most advantage. Using different platforms and areas of the map to shield from enemy attacks and spits. Players are given certain advantages to help insure that they are able to progress with ease and train up as they move through the game. Use of mellee stick to defeat close ranged enemies and then using a gun to go for long range attacks to protect themselves. Also placed through the map are health pickups to restore health. The design of my level ensures that the difficulty goes up as the player progresses. At the start, they are given easier battles and movement area which increases in difficulty as they move through allowing them to learn able the game easily.
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
-
+The intensity of the level is gradually increased. Overall the level is not very hard and basic understanding should be enough to finish the level. The level starts off with a low intesity with no danger to the player to get used to the controls. Providing the staff pickup near a checkpoint is used to show that now the player will be facing a bit of danger. Rising up the curve a bit more which gets the player to be provoked and apply their understanding of the game so far to defeat the enemies. As we get towards the end of the level the intensity is high as the player should have 2 out of the 3 keys required to finish the level and needs to fend off more enemies than before to apply every skill that has been picked up by the player throughout the game and also having the advantage of having the gun aswell. After defeating the enemies there is a sense of relief found by the player when about to finish the game.
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
-
+The main challenges of the level is to defeat the enemies and obtain the key to finish the level. To control the difficulty of the level, the amount of enemies and their placement has been used in order to create a more challenging level. Such as on Key 2, there is a floating spitter which is difficult to kill as the player doesn't yet have gun to kill with. The player must dodge the spits, grab the gun then kill the spitter. Acid on key 1 is in a hole and the player has to time the jump correctly otherwise will end up in the acid and have to start again from the checkpoint. They allow the level to be challenging enough for the player to think strategicly and cross over smartly and make the right choice.
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+The level allows for little exploration in order to figure out the best way to defeat the enemy. Much of the level is autonomus and exploration is very less but the layout introduces different aspects into the game. The pass through platform allows the player to move up in the level and prevents them from returning as to lock them in to the certain part of the level they are in. Many spots on the map where the player is just able to rest for a few seconds and recover from the fight just finished.
 
 ## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
+DocImages/Storyboard.jpg
+In the following photo, it is the storyboard of the level. It starts off on the left where the place starts in a box and has to work his way up on moving platforms. After that the player approaches the checkpoint and gets the the staff which unlocks the melee ability. Greeted by the first key which is protected by a chomper behind a drop of acid. It gets more difficult as the stipper is introduced and the gun pickup to kill said spitters. Move up through the Passthrough Platforms to the last part where multiple chompers and spitters are waiting to pounce and attack the player. Kill those to get the key and clean up a little bit more to get to the door to finish the level. 
 
 Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
 
 You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Acid
-
+Found twice in the level to increase difficulty.
 ### 2.2. Checkpoints
-
+1 checkpoint available before the first acid pit in case of player falling into the acid having to start over from there.
 ### 2.3. Chompers
-
+Multiple chompers spread about the game to challenge the player.
 ### 2.4. Health Pickups
-
+Health Pickup after the first key for the player to restore some health
 ### 2.5. Keys
-
+3 keys placed strategicly around the level behind enemies to be defeated first.
 ### 2.6. Moving Platforms
-
+Moving platforms at the start to get the player up and then a spitter placed to make it more difficult for the player.
 ### 2.7. Passthrough Platforms
-
+Set after the second level to allow the player to climb up to level 3.
 ### 2.8. Spikes
-
+Scattered around the level with the other enemies.
 ### 2.9. Spitters
-
+Strategicly placed around the map with other enemies to make it difficult for the player.
 ### 2.10. Weapon Pickup (Gun)
-
+Placed in the second fight of the level.
 ### 2.11. Weapon Pickup (Staff)
-
+Placed near the spawn for the player to get melee.
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
- 
 ### 3.1. Molecule Diagram
-
+DocImages/Storyboard.jpg
 ### 3.2. Level Map – Section 1
-
+DocImages/Key1.jpg
 ### 3.3.	Level Map – Section 2
-
+DocImages/Key2.jpg
 ### 3.4.	Level Map – Section 3
-
+DocImages/Key3.jpg
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+For iterative design, I used paper to figure out the level before implementing it in Unity as it helped me layout the structure for a low fidelity design. It helps with rapidly prototyping and not having to mess around in unity to get everything perfect. It also allows for quick modifications and altercations, making it very easy to explore different ideas and also identify any problems that could be faced while building it. Once satisfied with the paper rendition of the level, it can then be transitioned into Unity. Even in Unity, we can keep refining, evaluating and testing to see what works and what does not.It also allows to fully polish to ensure that the level will be fun for the player and that they will keep coming back to it as it engages them and motivates to continue onto the rest of the game and any subsequent sequels of the game. 
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+DocImages/IterativeDesgin.jpg
+In my iterative design for the first bit of the level, my platform was supposed to be one long path from start to finish but I changed that to a two storey level where the player travels up through the passthrough platforms. Another thing changed is that it dipped after the start and then came back up but I changed it to going up to get the melee and then coming down.
 
-## Generative AI Use Acknowledgement
-
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
 
 
